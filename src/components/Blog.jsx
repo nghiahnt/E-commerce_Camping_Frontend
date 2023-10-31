@@ -6,18 +6,18 @@ function Blog() {
           <div className="card p-3" style={{ "border-radius": "20px" }}>
             <div className="row mb-2">
               <div className="col-md-11 d-flex align-items-center">
-                <img src="../assets/user.png" alt="" height={20} />
+                <a href="/profile"><img src="../assets/user.png" alt="" height={20} /></a>
                 <a
-                  href="/"
+                  href="/profile"
                   style={{ "text-decoration": "none", color: "#000" }}
-                  className="ml-1"
+                  className="ml-1 mt-1"
                 >
                   Abc
                 </a>
               </div>
               <div className="col-md-1 d-flex justify-content-center align-items-center">
                 <i
-                  class="fa-solid fa-ellipsis"
+                  className="fa-solid fa-ellipsis"
                   style={{ cursor: "pointer" }}
                 ></i>
               </div>
@@ -26,11 +26,11 @@ function Blog() {
             <div className="row">
               <div className="col-md-8">
                 <a
-                  href="/"
+                  href="/blog/detail"
                   style={{
-                    "text-decoration": "none",
+                    textDecoration: "none",
                     color: "#000",
-                    "font-weight": "bold",
+                    fontWeight: "bold",
                   }}
                 >
                   <h4>Ba Na Hills - Golden Bridge Private Day Trip</h4>
@@ -56,20 +56,20 @@ function Blog() {
                 </div>
               </div>
               <div className="col-xxl-4">
-                <a href="/">
+                <a href="/blog/detail">
                   <img
                     src="../assets/thumbnail1.jpg"
                     alt="Thumbnail"
                     style={{
-                      "max-width": "inherit",
+                      maxWidth: "inherit",
                       background: "#ebebeb",
                       color: "#757575",
                       display: "block",
-                      "font-size": "14px",
-                      "line-height": "1.8",
-                      "max-height": "120px",
+                      fontSize: "14px",
+                      lineHeight: "1.8",
+                      maxHeight: "120px",
                       objectFit: "cover",
-                      "border-radius": "15px",
+                      borderRadius: "15px",
                       textAlign: "center",
                     }}
                   />

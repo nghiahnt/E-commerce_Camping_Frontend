@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 
 
-import { Home, Product, Products, AboutPage, ContactPage, Cart, Login, Register, Checkout, PageNotFound, Blog } from "./pages"
+import { Home, Product, Products, AboutPage, ContactPage, Cart, Login, Register, Checkout, PageNotFound, Blog, BlogDetail, Profile } from "./pages"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +26,8 @@ root.render(
         <Route path="*" element={<PageNotFound />} />
         <Route path="/product/*" element={<PageNotFound />} />
         <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/blog/detail" element={<BlogDetail />} />
+        <Route path='/profile' element={<Profile />} />
       </Routes>
     </Provider>
   </BrowserRouter>

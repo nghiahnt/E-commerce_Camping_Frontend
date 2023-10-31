@@ -3,11 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-dark text-white text-center py-4">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <p>&copy; 2023 Your Company. All rights reserved.</p>
+      <footer className="bg-dark text-white text-center py-4">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <p>&copy; 2023 Travel anywhere. All rights reserved.</p>
             </div>
           </div>
         </div>

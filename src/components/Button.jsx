@@ -1,15 +1,18 @@
 import { NavLink } from "react-router-dom";
 
-function Button(children) {
+function Button({ cart, ...children }) {
   return (
     <>
       <NavLink
-        to="/blog"
+        to={children.link}
         className={"btn btn-outline-dark m-2"}
-        style={{ "background-color": "#fff", color: "#000", }}
+        style={{
+          backgroundColor: "#fff",
+          color: "#000",
+        }}
       >
-        <i class="fa-solid fa-pen mr-1"></i>
-        {children.content}
+        <i className={children.className}></i>
+        {children.content} {cart}
       </NavLink>
     </>
   );

@@ -6,6 +6,7 @@ function Blogs() {
     <>
       <Navbar>
         <Button content="Create Blog" />
+        <Button content="Login" link="/login" />
       </Navbar>
       <div className="container text-center mt-3 ">
         <h1>Bài viết nổi bật</h1>

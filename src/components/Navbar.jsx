@@ -1,14 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useSelector } from "react-redux";
+import images from "../assets/img";
 
 const Navbar = ({ children }) => {
-  const state = useSelector((state) => state.handleCart);
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top shadow-sm shadow-bottom">
       <div className="container">
-        {/* <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/"> React Ecommerce</NavLink> */}
-        <img src="./assets/logo.png" alt="Travel" height={60} />
+        <img src={images.logo} alt="Travel" height={60} />
         <button
           className="navbar-toggler mx-2"
           type="button"
@@ -52,13 +50,13 @@ const Navbar = ({ children }) => {
 
           <div className="buttons text-center">
             {children}
-            <NavLink to="/login" className="btn btn-outline-dark m-2">
+            {/* <NavLink to="/login" className="btn btn-outline-dark m-2">
               <i className="fa fa-sign-in-alt mr-1"></i> Login
-            </NavLink>
+            </NavLink> */}
             {/* <NavLink to="/register" className="btn btn-outline-dark m-2"><i className="fa fa-user-plus mr-1"></i> Register</NavLink> */}
-            <NavLink to="/cart" className="btn btn-outline-dark m-2">
+            {/* <NavLink to="/cart" className="btn btn-outline-dark m-2">
               <i className="fa fa-cart-shopping mr-1"></i> Cart ({state.length}){" "}
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
       </div>
