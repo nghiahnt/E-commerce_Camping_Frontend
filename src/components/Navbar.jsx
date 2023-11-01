@@ -4,7 +4,7 @@ import images from "../assets/img";
 
 const Navbar = ({ children }) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top shadow-sm shadow-bottom">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light py-2 sticky-top shadow-sm shadow-bottom">
       <div className="container">
         <img src={images.logo} alt="Travel" height={60} />
         <button

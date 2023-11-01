@@ -11,3 +11,4 @@ export { default as PageNotFound } from './PageNotFound';
 export { default as Blog } from "./Blog";
 export { default as BlogDetail } from "./BlogDetail";
 export { default as Profile } from "./Profile"
+export { default as CreateBlog } from "./CreateBlog";

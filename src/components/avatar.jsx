@@ -5,7 +5,7 @@ function Avatar(children) {
   return (
     <>
       <NavLink to={children.link}>
-        <img className="rounded-circle" height={30} src={images.user} alt="trongnghia" />
+        <img className="rounded-circle" height={children.height} src={images.user} alt="trongnghia" />
       </NavLink>
     </>
   );

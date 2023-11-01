@@ -4,7 +4,7 @@ function BlogDetail() {
     return (
       <>
         <Navbar>
-          <Avatar link="/profile" />
+          <Avatar link="/profile" height="30" />
         </Navbar>
         <DetailBlog />
         <Footer />

@@ -5,7 +5,7 @@ function Blogs() {
   return (
     <>
       <Navbar>
-        <Button content="Create Blog" />
+        <Button content="Create Blog" link="/blog/createblog" />
         <Button content="Login" link="/login" />
       </Navbar>
       <div className="container text-center mt-3 ">
