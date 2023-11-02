@@ -1,7 +1,7 @@
-export { default as Navbar } from './Navbar/Navbar';
+export { default as Navbar } from '../layouts/components/Navbar/Navbar';
 export { default as Main } from './Main/main';
 export { default as Product } from './Product/Products';
-export { default as Footer } from './Footer/Footer';
+export { default as Footer } from '../layouts/components/Footer/Footer';
 export { default as Button } from './Button/Button';
 export { default as Blog } from './Blog/Blog';
 export { default as DetailBlog } from './BlogDetail/ContentBlog/ContentBlog';

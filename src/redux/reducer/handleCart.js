@@ -1,3 +1,4 @@
+/* eslint-disable no-unreachable */
 const cart = []
 
 const handleCart = (state=cart, action) =>{

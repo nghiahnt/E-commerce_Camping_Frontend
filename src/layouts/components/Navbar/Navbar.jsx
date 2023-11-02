@@ -1,12 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import images from '../../assets/img';
+import images from '../../../assets/img';
 
 const Navbar = ({ children }) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light py-2 sticky-top shadow-sm shadow-bottom">
             <div className="container">
-                <img src={images.logo} alt="Travel" height={60} />
+                <a href="/">
+                    <img src={images.logo} alt="Travel" height={60} />
+                </a>
                 <button
                     className="navbar-toggler mx-2"
                     type="button"

@@ -1,4 +1,4 @@
-import { Navbar, Footer } from "../components";
+import { Navbar } from "../components";
 import { Button, Blog } from "../components";
 
 function Blogs() {
@@ -20,7 +20,6 @@ function Blogs() {
         <Blog />
         <Blog />
       </div>
-      <Footer />
     </>
   );
 }
