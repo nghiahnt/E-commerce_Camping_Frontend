@@ -1,13 +1,13 @@
-import { Navbar, Footer, DetailBlog, Avatar } from "../components"
+import {DetailBlog } from "../components"
 
 function BlogDetail() {
     return (
       <>
-        <Navbar>
+        {/* <Navbar>
           <Avatar link="/profile" height="30" />
-        </Navbar>
+        </Navbar> */}
         <DetailBlog />
-        <Footer />
+        {/* <Footer /> */}
       </>
     );
 }

@@ -3,12 +3,12 @@ export { default as Products } from './Products';
 export { default as Product } from './Product';
 export { default as AboutPage } from './AboutPage';
 export { default as ContactPage } from './ContactPage';
-export { default as Cart } from './Cart';
+export { default as Cart } from './Cart/Cart';
 export { default as Login } from './Login';
 export { default as Register } from './Register';
 export { default as Checkout } from './Checkout';
 export { default as PageNotFound } from './PageNotFound';
-export { default as Blog } from "./Blog";
-export { default as BlogDetail } from "./BlogDetail";
-export { default as Profile } from "./Profile"
-export { default as CreateBlog } from "./CreateBlog";
+export { default as Blog } from './Blog';
+export { default as BlogDetail } from './BlogDetail';
+export { default as Profile } from './Profile';
+export { default as CreateBlog } from './CreateBlog/CreateBlog';

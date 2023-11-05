@@ -1,5 +1,7 @@
 import config from '../config';
 
+import { LoggedLayout } from '../layouts';
+
 import {
     AboutPage,
     Blog,
@@ -29,7 +31,7 @@ const routes = [
     { path: config.routes.blogdetail, component: BlogDetail },
     { path: config.routes.cart, component: Cart },
     { path: config.routes.checkout, component: Checkout },
-    { path: config.routes.createblog, component: CreateBlog },
+    { path: config.routes.createblog, component: CreateBlog, layout: LoggedLayout },
     { path: config.routes.login, component: Login },
     { path: config.routes.pagenotfound[0], component: PageNotFound },
     { path: config.routes.pagenotfound[1], component: PageNotFound },

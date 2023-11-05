@@ -4,6 +4,7 @@ import store from './redux/store';
 
 import routes from './routes';
 import { DefaultLayout } from './layouts';
+import { Fragment } from 'react';
 
 function App() {
     return (
@@ -14,22 +15,27 @@ function App() {
                         const Page = route.component;
                         let Layout = DefaultLayout;
                         // Handle Layout here
+                        if (route.layout) {
+                            Layout = route.layout;
+                        } else if (route.layout === null) {
+                            Layout = Fragment;
+                        }
                         return (
-                            <Route 
+                            <Route
                                 key={index}
                                 path={route.path}
                                 element={
-                                    <Layout>
-                                        <Page />
-                                    </Layout>
+                                    <Layout
+                                        Page={<Page />}
+                                    />
                                 }
                             />
-                        )
+                        );
                     })}
                 </Routes>
             </Provider>
         </BrowserRouter>
-    )
+    );
 }
 
 export default App;

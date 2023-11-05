@@ -7,3 +7,5 @@ export { default as Blog } from './Blog/Blog';
 export { default as DetailBlog } from './BlogDetail/ContentBlog/ContentBlog';
 export { default as Avatar } from './Avatar/Avatar';
 export { default as ContentDetailBlog } from './BlogDetail/BlogDetail';
+export { default as ShowCart } from './ShowCart/ShowCart';
+export { default as PaymentModal } from "./PaymentModal/PaymentModal"

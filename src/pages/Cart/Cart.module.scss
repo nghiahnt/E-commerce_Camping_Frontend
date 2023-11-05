@@ -1,0 +1,43 @@
+.payment-method {
+    color: #000;
+    
+}
+
+.payment-method .title {
+    font-size: 1.25rem;
+}
+
+.payment-button {
+    display: block;
+    width: 370px;
+    height: 50px;
+    margin: 20px 0;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #fff;
+    border-color: lightblue;
+
+    &:hover {
+        background-color: #ccc;
+    }
+}
+
+.title .text {
+    text-align: left;
+}
+
+.button-text {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// .fa-solid {
+
+// }
+
+// .fa-circle-check {
+
+// }

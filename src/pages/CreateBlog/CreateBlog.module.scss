@@ -1,0 +1,28 @@
+.wrapper-content {
+    min-height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertical-hr {
+    min-height: 900px;
+    width: 2px;
+    background-color: #000;
+    margin: 0 1px;
+}
+
+.body {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview {
+    width: 550px;
+}
+
+.textblog {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}

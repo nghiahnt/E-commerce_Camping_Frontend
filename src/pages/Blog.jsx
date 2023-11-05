@@ -1,13 +1,13 @@
-import { Navbar } from "../components";
-import { Button, Blog } from "../components";
+// import { Navbar } from "../components";
+import { Blog } from "../components";
 
 function Blogs() {
   return (
     <>
-      <Navbar>
+      {/* <Navbar>
         <Button content="Create Blog" link="/blog/createblog" />
         <Button content="Login" link="/login" />
-      </Navbar>
+      </Navbar> */}
       <div className="container text-center mt-3 ">
         <h1>Bài viết nổi bật</h1>
         <p>Tổng hợp các bài viết về dịch vụ và trải nghiệm du lịch</p>
