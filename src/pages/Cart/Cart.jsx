@@ -7,10 +7,11 @@ import classNames from 'classnames/bind';
 import styles from './Cart.module.scss';
 import { ShowCart, PaymentModal } from '../../components';
 
-const cx = classNames.bind(styles);
+const cx = classNames.bind(styles);   
 
 const Cart = () => {
     const state = useSelector((state) => state.handleCart);
+    console.log(state);
     const dispatch = useDispatch();
 
     const EmptyCart = () => {

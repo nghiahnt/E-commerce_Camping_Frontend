@@ -13,3 +13,5 @@ export const delCart = (product) =>{
         payload:product
     }
 }
+
+// Actions for Register
